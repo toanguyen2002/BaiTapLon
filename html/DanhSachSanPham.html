@@ -1,0 +1,591 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Danh Sách Các Mặt hàng</title>
+    <link rel="stylesheet" href="../themyicon/themify-icons/themify-icons.css">
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/mycss.css">
+    <script src="../js/jquery-3.6.0.min.js"></script>
+    <script src="../js/bootstrap.min.js"></script>
+</head>
+<body>
+     <!-- Navigation -->
+     <nav class="navbar navbar-expand-md navbar-light bg-light sticky-top">
+        <div class="container-fluid">
+            <a href="../html/TrangChuLap.html" class="navbar-brand">
+                <img src="../img/logo.PNG" alt="" height="100">
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" 
+            data-target="#navnav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navnav">
+                <form action=""><input placeholder="Tìm Kiếm" type="text" class="form-control"></form>
+                <ul class="navbar-nav ml-auto" >
+                    <li class="nav-item">
+                        <a class="nav-link active" href="../html/TrangChuLap.html"><i class="ti-home"></i> Trang Chủ</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown" id="navbardrop"> <i class="ti-user"></i> Tài Khoản</a>
+                        <div class="dropdown-menu">
+                            <a href="../html/dangnhap.html" class="dropdown-item">Đăng Nhập</a>
+                            <a href="../html/dangky.html" class="dropdown-item">Đăng Ký</a>
+                        </div>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#">Danh Mục Sản Phẩm</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Tin Tức</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Khuyến Mãi</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Trả Góp</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Kiểm Tra Bảo Hành</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Liên Hệ</a>
+                    </li>
+
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- EndNavigation -->
+    <div class="row bg-pink">
+        <div class="container">
+            <ul class=" nav navbar-nav ml-auto navbar-expand-lg list-dslap p-2">
+                <li class="nav-item mr-5 font-weight-bold"><a href="#LapGame" class="nav-link">LapTop Gaming</a></li>
+                <li class="nav-item mr-5 font-weight-bold"><a href="#lapVp" class="nav-link">LapTop Văn Phòng</a></li>
+                <li class="nav-item mr-5 font-weight-bold"><a href="" class="nav-link">LapTop Sang Trong</a></li>
+                <li class="nav-item mr-5 font-weight-bold"><a href="" class="nav-link">LapTop Mỏng Nhẹ</a></li>
+                <li class="nav-item mr-5 font-weight-bold"><a href="" class="nav-link">Phần Mềm Diệt Virut,office,Windows bản Quyền</a></li>
+
+                <li class="nav-item mr-5 font-weight-bold"><a href="" class="nav-link"> <i class="ti-shopping-cart"></i> Giỏ Hàng</a></li>
+        </ul></div>
+    </div>
+    <!-- LapGaming -->
+    <div class="row">
+        <div class="container-fluid bg-dark">
+            <hr>
+            <a id="LapGame" href="#LapGame"><img src="../img/bannerlapgaming.PNG" width="100%" alt=""></a>
+            <hr>
+            <ul class="list-group list-product-lap p-5">
+                <li class="list-group-item">
+                    <a href=""><img src="../img/lapgaming1.PNG" width="500" alt=""></a>
+                    <h3>
+                        MSI Gaming GF63 Thin 11UD i7 11800H (648VN)
+                    </h3>
+                    <div class="item-compare ">
+                    <span>Ram 8GB</span>
+                    <span>SSD 512GB</span>
+                    </div>
+                    <strong class="prince">27.990.000₫</strong>
+                    <p class="item-gift">Quà Tặng Giá Trị 200.000₫ </p>
+                </li>
+                <li class="list-group-item">
+                    <a href=""><img src="../img/lapgaming2.PNG" width="500" alt=""></a>
+                    <h3>
+                        Acer Nitro 5 Gaming AN515 57 5831 i5 11400H (NH.QDGSV.003)
+                    </h3>
+                    <div class="item-compare ">
+                    <span>Ram 4GB</span>
+                    <span>SSD 256GB</span>
+                    </div>
+                    <strong class="prince">26.390.000₫</strong>
+                    <p class="font-weight-bold item-gift">Quà 3.060.000₫ </p>
+                </li>
+                <li class="list-group-item">
+                    <a href=""><img src="../img/lapgaming3.PNG" width="500" alt=""></a>
+                    <h3>
+                        Dell Gaming Alienware m15 R6 i7 11800H (P109F001DBL)
+                    </h3>
+                    <div class="item-compare ">
+                    <span>Ram 32GB</span>
+                    <span>SSD 1TB</span>
+                    </div>
+                    <strong class="prince">61.990.000₫</strong>
+                    <p class="item-gift">Quà Tặng Giá Trị 500.000₫ </p>
+                </li>
+                <li class="list-group-item">
+                    <a href=""><img src="../img/lapgaming4.PNG" width="500" alt=""></a>
+                    <h3>
+                        Asus TUF Gaming FX516PM i7 11370H (HN002W)
+                    </h3>
+                    <div class="item-compare ">
+                    <span>Ram 8GB</span>
+                    <span>SSD 512GB</span>
+                    </div>
+                    <strong class="prince">32.990.000₫</strong>
+                    <p class="item-gift"><b>Quà Tặng Giá Trị 1.880.000₫</b> </p>
+                </li>
+                <li class="list-group-item">
+                    <a href=""><img src="../img/lapgaming5.PNG" width="500" alt=""></a>
+                    <h3>
+                        Lenovo Gaming Legion 5 15ITH6 i7 11800H (82JK00FNVN)
+                    </h3>
+                    <div class="item-compare ">
+                    <span>Ram 16GB</span>
+                    <span>SSD 512GB</span>
+                    </div>
+                    <strong class="prince">38.990.000₫</strong>
+                    <p class="item-gift">Quà Tặng Giá Trị 300.000₫ </p>
+                </li>
+                <li class="list-group-item">
+                    <a href=""><img src="../img/laptopacer.PNG" width="500" alt=""></a>
+                    <h3>LapTop Acer</h3>
+                    <div class="item-compare ">
+                    <span>Ram 4GB</span>
+                    <span>SSD 256GB</span>
+                    </div>
+                    <strong class="prince">11.990.000₫</strong>
+                    <p class="item-gift">Quà Tặng Giá Trị 300.000₫ </p>
+                </li>
+                <li class="list-group-item">
+                    <a href=""><img src="../img/laptopacer.PNG" width="500" alt=""></a>
+                    <h3>LapTop Acer</h3>
+                    <div class="item-compare ">
+                    <span>Ram 4GB</span>
+                    <span>SSD 256GB</span>
+                    </div>
+                    <strong class="prince">11.990.000₫</strong>
+                    <p class="item-gift">Quà Tặng Giá Trị 300.000₫ </p>
+                </li>
+                <li class="list-group-item">
+                    <a href=""><img src="../img/laptopacer.PNG" width="500" alt=""></a>
+                    <h3>LapTop Acer</h3>
+                    <div class="item-compare ">
+                    <span>Ram 4GB</span>
+                    <span>SSD 256GB</span>
+                    </div>
+                    <strong class="prince">11.990.000₫</strong>
+                    <p class="item-gift">Quà Tặng Giá Trị 300.000₫ </p>
+                </li>
+                <li class="list-group-item">
+                    <a href=""><img src="../img/laptopacer.PNG" width="500" alt=""></a>
+                    <h3>LapTop Acer</h3>
+                    <div class="item-compare ">
+                    <span>Ram 4GB</span>
+                    <span>SSD 256GB</span>
+                    </div>
+                    <strong class="prince">11.990.000₫</strong>
+                    <p class="item-gift">Quà Tặng Giá Trị 300.000₫ </p>
+                </li>
+                <li class="list-group-item">
+                    <a href=""><img src="../img/laptopacer.PNG" width="500" alt=""></a>
+                    <h3>LapTop Acer</h3>
+                    <div class="item-compare ">
+                    <span>Ram 4GB</span>
+                    <span>SSD 256GB</span>
+                    </div>
+                    <strong class="prince">11.990.000₫</strong>
+                    <p class="item-gift">Quà Tặng Giá Trị 300.000₫ </p>
+                </li>
+                <li class="list-group-item">
+                    <a href=""><img src="../img/laptopacer.PNG" width="500" alt=""></a>
+                    <h3>LapTop Acer</h3>
+                    <div class="item-compare ">
+                    <span>Ram 4GB</span>
+                    <span>SSD 256GB</span>
+                    </div>
+                    <strong class="prince">11.990.000₫</strong>
+                    <p class="item-gift">Quà Tặng Giá Trị 300.000₫ </p>
+                </li>
+                <li class="list-group-item">
+                    <a href=""><img src="../img/laptopacer.PNG" width="500" alt=""></a>
+                    <h3>LapTop Acer</h3>
+                    <div class="item-compare ">
+                    <span>Ram 4GB</span>
+                    <span>SSD 256GB</span>
+                    </div>
+                    <strong class="prince">11.990.000₫</strong>
+                    <p class="item-gift">Quà Tặng Giá Trị 300.000₫ </p>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <!-- LapVp -->
+    <div class="row">
+        <div class="container-fluid bg-dark">
+            <hr>
+            <a id="lapVp" href="#lapVp"><img src="../img/bannerlapVp.PNG" width="100%" alt=""></a>
+            <hr>
+            <ul class="list-group list-product-lap p-5">
+                <li class="list-group-item">
+                    <a href=""><img src="../img/lapvp_1.PNG" width="500" height="50%" alt=""></a>
+                    <h3 class="mt-5">Levono idepad 3 15ITl6 i5 1135G7 (82H801P9VN)</h3>
+                    <div class="item-compare ">
+                    <span>Ram 4GB</span>
+                    <span>SSD 512GB</span>
+                    </div>
+                    <strong class="prince">12.990.000₫</strong>
+                    <p class="item-gift">Quà Tặng Giá Trị 100.000₫ </p>
+                </li>
+                <li class="list-group-item">
+                    <a href=""><img src="../img/lapvp2.PNG"  height="50%" width="500" alt=""></a>
+                    <h3>HP 240 G8 i3 1005G1 (519A7PA)</h3>
+                    <div class="item-compare ">
+                    <span>Ram 4GB</span>
+                    <span>SSD 256GB</span>
+                    </div>
+                    <strong class="prince">112.990.000₫</strong>
+                    <p class="item-gift">Quà Tặng Giá Trị 100.000₫ </p>
+                </li>
+                <li class="list-group-item">
+                    <a href=""><img src="../img/lapvp3.PNG"  height="50%" width="500" alt=""></a>
+                    <h3>LapTop Acer</h3>
+                    <div class="item-compare ">
+                    <span>Ram 4GB</span>
+                    <span>SSD 256GB</span>
+                    </div>
+                    <strong class="prince">11.990.000₫</strong>
+                    <p class="item-gift">Quà Tặng Giá Trị 300.000₫ </p>
+                </li>
+                <li class="list-group-item">
+                    <a href=""><img src="../img/lapvp4.PNG"  height="50%" width="500" alt=""></a>
+                    <h3>LapTop Acer</h3>
+                    <div class="item-compare ">
+                    <span>Ram 4GB</span>
+                    <span>SSD 256GB</span>
+                    </div>
+                    <strong class="prince">11.990.000₫</strong>
+                    <p class="item-gift">Quà Tặng Giá Trị 300.000₫ </p>
+                </li>
+                <li class="list-group-item">
+                    <a href=""><img src="../img/lapvp5.PNG" height="50%" width="500" alt=""></a>
+                    <h3>LapTop Acer</h3>
+                    <div class="item-compare ">
+                    <span>Ram 4GB</span>
+                    <span>SSD 256GB</span>
+                    </div>
+                    <strong class="prince">11.990.000₫</strong>
+                    <p class="item-gift">Quà Tặng Giá Trị 300.000₫ </p>
+                </li>
+                <li class="list-group-item">
+                    <a href=""><img src="../img/laptopacer.PNG" width="500" alt=""></a>
+                    <h3>LapTop Acer</h3>
+                    <div class="item-compare ">
+                    <span>Ram 4GB</span>
+                    <span>SSD 256GB</span>
+                    </div>
+                    <strong class="prince">11.990.000₫</strong>
+                    <p class="item-gift">Quà Tặng Giá Trị 300.000₫ </p>
+                </li>
+                <li class="list-group-item">
+                    <a href=""><img src="../img/laptopacer.PNG" width="500" alt=""></a>
+                    <h3>LapTop Acer</h3>
+                    <div class="item-compare ">
+                    <span>Ram 4GB</span>
+                    <span>SSD 256GB</span>
+                    </div>
+                    <strong class="prince">11.990.000₫</strong>
+                    <p class="item-gift">Quà Tặng Giá Trị 300.000₫ </p>
+                </li>
+                <li class="list-group-item">
+                    <a href=""><img src="../img/laptopacer.PNG" width="500" alt=""></a>
+                    <h3>LapTop Acer</h3>
+                    <div class="item-compare ">
+                    <span>Ram 4GB</span>
+                    <span>SSD 256GB</span>
+                    </div>
+                    <strong class="prince">11.990.000₫</strong>
+                    <p class="item-gift">Quà Tặng Giá Trị 300.000₫ </p>
+                </li>
+                <li class="list-group-item">
+                    <a href=""><img src="../img/laptopacer.PNG" width="500" alt=""></a>
+                    <h3>LapTop Acer</h3>
+                    <div class="item-compare ">
+                    <span>Ram 4GB</span>
+                    <span>SSD 256GB</span>
+                    </div>
+                    <strong class="prince">11.990.000₫</strong>
+                    <p class="item-gift">Quà Tặng Giá Trị 300.000₫ </p>
+                </li>
+                <li class="list-group-item">
+                    <a href=""><img src="../img/laptopacer.PNG" width="500" alt=""></a>
+                    <h3>LapTop Acer</h3>
+                    <div class="item-compare ">
+                    <span>Ram 4GB</span>
+                    <span>SSD 256GB</span>
+                    </div>
+                    <strong class="prince">11.990.000₫</strong>
+                    <p class="item-gift">Quà Tặng Giá Trị 300.000₫ </p>
+                </li>
+                <li class="list-group-item">
+                    <a href=""><img src="../img/laptopacer.PNG" width="500" alt=""></a>
+                    <h3>LapTop Acer</h3>
+                    <div class="item-compare ">
+                    <span>Ram 4GB</span>
+                    <span>SSD 256GB</span>
+                    </div>
+                    <strong class="prince">11.990.000₫</strong>
+                    <p class="item-gift">Quà Tặng Giá Trị 300.000₫ </p>
+                </li>
+                <li class="list-group-item">
+                    <a href=""><img src="../img/laptopacer.PNG" width="500" alt=""></a>
+                    <h3>LapTop Acer</h3>
+                    <div class="item-compare ">
+                    <span>Ram 4GB</span>
+                    <span>SSD 256GB</span>
+                    </div>
+                    <strong class="prince">11.990.000₫</strong>
+                    <p class="item-gift">Quà Tặng Giá Trị 300.000₫ </p>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <!-- SangTrong -->
+    <div class="row">
+        <div class="container-fluid bg-dark">
+            <hr>
+            <a href=""><img src="../img/bannermac.PNG" width="100%" alt=""></a>
+            <hr>
+            <ul class="list-group list-product-lap p-5">
+                <li class="list-group-item">
+                    <a href=""><img src="../img/lapst1.PNG" width="500" alt=""></a>
+                    <h3>Lenovo Yoga 9 14ITL5 i7/1185G7 (82BG006EVN)</h3>
+                    <div class="item-compare ">
+                    <span>Ram 16GB</span>
+                    <span>SSD 1TB</span>
+                    </div>
+                    <strong class="prince">11.990.000₫</strong>
+                    <p class="item-gift">Quà Tặng Giá Trị 300.000₫ </p>
+                </li>
+                <li class="list-group-item">
+                    <a href=""><img src="../img/lapst2.PNG" width="500" alt=""></a>
+                    <h3>MacBook Pro 14 M1 pro 2021.16-core GPU</h3>
+                    <div class="item-compare ">
+                    <span>Ram 16GB</span>
+                    <span>SSD 1TB</span>
+                    </div>
+                    <strong class="prince">64.990.000₫</strong>
+                    <p class="item-gift">Quà Tặng Giá Trị 500.000₫ </p>
+                </li>
+                <li class="list-group-item">
+                    <a href=""><img src="../img/lapst3.PNG" width="500" alt=""></a>
+                    <h3>
+                        Dell XPS 17 9710 i7 11800H (XPS7I7001W1)
+                    </h3>
+                    <div class="item-compare ">
+                    <span>Ram 4GB</span>
+                    <span>SSD 256GB</span>
+                    </div>
+                    <strong class="prince">82.990.000₫</strong>
+                    <p class="item-gift">Quà Tặng Giá Trị 600.000₫ </p>
+                </li>
+                <li class="list-group-item">
+                    <a href=""><img src="../img/lapst4.PNG" width="500" alt=""></a>
+                    <h3>LapTop Acer</h3>
+                    <div class="item-compare ">
+                    <span>Ram 4GB</span>
+                    <span>SSD 256GB</span>
+                    </div>
+                    <strong class="prince">11.990.000₫</strong>
+                    <p class="item-gift">Quà Tặng Giá Trị 300.000₫ </p>
+                </li>
+                <li class="list-group-item">
+                    <a href=""><img src="../img/lapst5.PNG" width="500" alt=""></a>
+                    <h3>LapTop Acer</h3>
+                    <div class="item-compare ">
+                    <span>Ram 4GB</span>
+                    <span>SSD 256GB</span>
+                    </div>
+                    <strong class="prince">11.990.000₫</strong>
+                    <p class="item-gift">Quà Tặng Giá Trị 300.000₫ </p>
+                </li>
+                <li class="list-group-item">
+                    <a href=""><img src="../img/laptopacer.PNG" width="500" alt=""></a>
+                    <h3>LapTop Acer</h3>
+                    <div class="item-compare ">
+                    <span>Ram 4GB</span>
+                    <span>SSD 256GB</span>
+                    </div>
+                    <strong class="prince">11.990.000₫</strong>
+                    <p class="item-gift">Quà Tặng Giá Trị 300.000₫ </p>
+                </li>
+                <li class="list-group-item">
+                    <a href=""><img src="../img/laptopacer.PNG" width="500" alt=""></a>
+                    <h3>LapTop Acer</h3>
+                    <div class="item-compare ">
+                    <span>Ram 4GB</span>
+                    <span>SSD 256GB</span>
+                    </div>
+                    <strong class="prince">11.990.000₫</strong>
+                    <p class="item-gift">Quà Tặng Giá Trị 300.000₫ </p>
+                </li>
+                <li class="list-group-item">
+                    <a href=""><img src="../img/laptopacer.PNG" width="500" alt=""></a>
+                    <h3>LapTop Acer</h3>
+                    <div class="item-compare ">
+                    <span>Ram 4GB</span>
+                    <span>SSD 256GB</span>
+                    </div>
+                    <strong class="prince">11.990.000₫</strong>
+                    <p class="item-gift">Quà Tặng Giá Trị 300.000₫ </p>
+                </li>
+                <li class="list-group-item">
+                    <a href=""><img src="../img/laptopacer.PNG" width="500" alt=""></a>
+                    <h3>LapTop Acer</h3>
+                    <div class="item-compare ">
+                    <span>Ram 4GB</span>
+                    <span>SSD 256GB</span>
+                    </div>
+                    <strong class="prince">11.990.000₫</strong>
+                    <p class="item-gift">Quà Tặng Giá Trị 300.000₫ </p>
+                </li>
+                <li class="list-group-item">
+                    <a href=""><img src="../img/laptopacer.PNG" width="500" alt=""></a>
+                    <h3>LapTop Acer</h3>
+                    <div class="item-compare ">
+                    <span>Ram 4GB</span>
+                    <span>SSD 256GB</span>
+                    </div>
+                    <strong class="prince">11.990.000₫</strong>
+                    <p class="item-gift">Quà Tặng Giá Trị 300.000₫ </p>
+                </li>
+                <li class="list-group-item">
+                    <a href=""><img src="../img/laptopacer.PNG" width="500" alt=""></a>
+                    <h3>LapTop Acer</h3>
+                    <div class="item-compare ">
+                    <span>Ram 4GB</span>
+                    <span>SSD 256GB</span>
+                    </div>
+                    <strong class="prince">11.990.000₫</strong>
+                    <p class="item-gift">Quà Tặng Giá Trị 300.000₫ </p>
+                </li>
+                <li class="list-group-item">
+                    <a href=""><img src="../img/laptopacer.PNG" width="500" alt=""></a>
+                    <h3>LapTop Acer</h3>
+                    <div class="item-compare ">
+                    <span>Ram 4GB</span>
+                    <span>SSD 256GB</span>
+                    </div>
+                    <strong class="prince">11.990.000₫</strong>
+                    <p class="item-gift">Quà Tặng Giá Trị 300.000₫ </p>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <!-- EndMac -->
+    <!-- Soft -->
+    <div class="row">
+        <div class="container-fluid bg-dark">
+            <hr>
+            <a href=""><img src="../img/bannermicrosoft.PNG" width="100%" alt=""></a>
+            <hr>
+            <ul class="list-group list-product-lap p-5 list-soft">
+                <li class="list-group-item">
+                    <a href=""><img src="../img/pm1.PNG" width="500" alt=""></a>
+                    <h3>Office Home & Student 2021 For PC/Mac Vĩnh Viễn All Languages</h3>
+                    <strong class="prince">2.190.000₫</strong>
+                </li>
+                <li class="list-group-item">
+                    <a href=""><img src="../img/pm2.PNG" width="500" alt=""></a>
+                    <h3>
+                        Microsoft 365 Family 32/64bit 1 năm 6 user Win/Mac
+                    </h3>
+                    <strong class="prince">1.490.000₫</strong>
+                </li>
+                <li class="list-group-item">
+                    <a href=""><img src="../img/pm3.PNG" width="500" alt=""></a>
+                    <h3>
+                        Microsoft 365 Personal 32/64bit 1 năm 1 user Win/Mac
+                    </h3>
+                    <strong class="prince">990.000₫</strong>
+                </li>
+                <li class="list-group-item">
+                    <a href=""><img src="../img/pm4.PNG" width="500" alt=""></a>
+                    <h3>ESET Small Office Security - Windows 10 PC+ 01 Server+ 05 Mobile/Năm</h3>
+                    <strong class="prince">3.500.000₫</strong>
+                </li>
+                <li class="list-group-item">
+                    <a href=""><img src="../img/pm5.PNG" width="500" alt=""></a>
+                    <h3>
+                        Kaspersky Mobile Security cho Android (1 thiết bị/1 năm)
+                    </h3>
+                    <strong class="prince">150.000₫</strong>
+                </li>
+                <li class="list-group-item">
+                    <a href=""><img src="../img/pm6.PNG" width="500" alt=""></a>
+                    <h3>
+                        ESET NOD32 Antivirus - Windows 03 PC/Năm
+                    </h3>
+                    <strong class="prince">300.000₫</strong>
+                </li>
+                <li class="list-group-item">
+                    <a href=""><img src="../img/pm1.PNG" width="500" alt=""></a>
+                    <h3>Office Home & Student 2021 For PC/Mac Vĩnh Viễn All Languages</h3>
+                    <strong class="prince">2.190.000₫</strong>
+                </li>
+                <li class="list-group-item">
+                    <a href=""><img src="../img/pm2.PNG" width="500" alt=""></a>
+                    <h3>
+                        Microsoft 365 Family 32/64bit 1 năm 6 user Win/Mac
+                    </h3>
+                    <strong class="prince">1.490.000₫</strong>
+                </li>
+                <li class="list-group-item">
+                    <a href=""><img src="../img/pm3.PNG" width="500" alt=""></a>
+                    <h3>
+                        Microsoft 365 Personal 32/64bit 1 năm 1 user Win/Mac
+                    </h3>
+                    <strong class="prince">990.000₫</strong>
+                </li>
+                <li class="list-group-item">
+                    <a href=""><img src="../img/pm4.PNG" width="500" alt=""></a>
+                    <h3>ESET Small Office Security - Windows 10 PC+ 01 Server+ 05 Mobile/Năm</h3>
+                    <strong class="prince">3.500.000₫</strong>
+                </li>
+                <li class="list-group-item">
+                    <a href=""><img src="../img/pm5.PNG" width="500" alt=""></a>
+                    <h3>
+                        Kaspersky Mobile Security cho Android (1 thiết bị/1 năm)
+                    </h3>
+                    <strong class="prince">150.000₫</strong>
+                </li>
+                <li class="list-group-item">
+                    <a href=""><img src="../img/pm6.PNG" width="500" alt=""></a>
+                    <h3>
+                        ESET NOD32 Antivirus - Windows 03 PC/Năm
+                    </h3>
+                    <strong class="prince">300.000₫</strong>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+    <footer class="container-fluid bg-dark ">
+        <div class="row">
+            <div class="col-md-4 p-5 text-white">
+             <h5>Lap Store</h5>
+             <p><i class="ti-mobile mr-1"></i> 0396812537</p>
+             <p><i class="ti-email mr-1"></i> toanguyen200220@gmail.com</p>
+             <p><i class="ti-key mr-1"> Hướng Dẫn Chọn LapTop</i></p>
+             <p><i class="ti-reload mr-1"> Chính Sách Bảo Hành</i></p>
+            </div>
+            <div class="col-md-4 p-5 text-white">
+             <h5>Thời Gian Hoạt Động</h5>
+             <p><i class="ti-timer"></i> Thứ Hai Đến Thứ 7: 8:30-23:10</p>
+             <p><i class="ti-timer"></i> Ngày lễ: 9:00-20:00</i></p>
+            </div>
+            <div class="col-md-4 p-5 text-white">
+             <h5>Lap Store</h5>
+             <p><i class="ti-mobile"></i> 0396812537</p>
+             <p><i class="ti-email"></i> toanguyen200220@gmail.com</p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
